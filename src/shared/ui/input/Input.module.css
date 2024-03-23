@@ -1,0 +1,22 @@
+.input {
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: rgba(222, 222, 222, 0.1);
+    color: #ffffff;
+}
+/* .input:valid {
+    outline: 2px solid green;
+} */
+
+/* .input:invalid:not(:placeholder-shown) {
+    outline: 2px solid red;
+} */
+
+.input::placeholder {
+    color: #a8a8a8;
+}
+
+.input:focus {
+    outline: 2px solid #dedede;
+}

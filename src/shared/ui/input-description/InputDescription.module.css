@@ -1,0 +1,18 @@
+.li {
+    color: #dedede;
+    padding-left: 8px;
+    list-style-type: "✖";
+}
+
+.li::marker {
+    color: red;
+}
+
+.achieved {
+    list-style-type: "✔";
+    color: #03a32e;
+}
+
+.achieved::marker {
+    color: #03a32e
+}

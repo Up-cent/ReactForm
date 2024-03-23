@@ -1,0 +1,14 @@
+.showPasswordCheckbox {
+    display: none;
+}
+
+.showPasswordLabel{
+    width: 20px;
+    height: 20px;
+    background-image: url("assets/eye-svgrepo-com.svg");
+    cursor: pointer;
+}
+
+.showPasswordCheckbox:checked + .showPasswordLabel {
+    background-image: url("assets/eye-off-svgrepo-com.svg");
+}

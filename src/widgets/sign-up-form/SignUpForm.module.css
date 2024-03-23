@@ -1,0 +1,28 @@
+.form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid #4f4f4f;
+   /*  font-family: "Trebuchet MS", sans-serif; */
+    -webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+    
+}
+
+
+/* .formBG {
+    opacity: 1;
+} */
+
+.formTitle {
+    margin-bottom: 36px;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.button {
+    font-size: 16px !important;
+}

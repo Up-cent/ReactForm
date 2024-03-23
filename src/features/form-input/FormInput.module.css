@@ -1,0 +1,36 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.container:last-of-type {
+    margin-bottom: 0px;
+}
+
+.inputSection {
+    position: relative;
+}
+
+.inputSection *{
+    display: block;
+    width: 94%;
+}
+
+
+.label {
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: #dedede;
+}
+
+
+.showHideCheckbox {
+    width: fit-content;
+    position: absolute;
+    top: 18%;
+    right: 8%;
+}
+
+.descriptionContainer {
+    margin-top: 10px;
+    padding-left: 12px;
+}
